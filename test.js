@@ -26,3 +26,8 @@ test('responds to requests', (t) => {
     });
   });
 });
+
+test('should make things crash',(t)=>{
+  t.plan(1);
+  t.true(true);
+})
