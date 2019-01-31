@@ -31,3 +31,9 @@ test('should make things crash',(t)=>{
   t.plan(1);
   t.true(false);
 })
+
+test('should make things ok',(t)=>{
+  t.plan(1);
+  t.true(true);
+})
+
